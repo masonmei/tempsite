@@ -1,0 +1,32 @@
+.backToTop {
+	display: block;
+	position: fixed;
+	right: 20px;
+	margin-right: 20px;
+	bottom: 25px;
+	z-index: 10000;
+}
+
+.backToTop span {
+	color: #ff6600;
+}
+
+/*.anquanjiaoyu {
+	background: url(../img/anquanjiaoyu_1.jpg);
+	opacity: 0.5;
+	filter: "alpha(opacity=50)";
+	-ms-filter:"alpha(opacity=50)";
+}*/
+
+p {
+	text-indent: 2em;
+}
+
+/**html .backToTop {
+	position: absolute;
+	left: 50%;
+	margin-left: 500px;
+	z-index: 10000;
+	bottom:auto;
+	top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-125-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+}*/
